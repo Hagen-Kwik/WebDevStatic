@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\allControllers;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,8 +14,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('home',[
-        "title" => 'Home Page'
-    ]);
-});
+
+Route::get('/', [allControllers::class, 'homeFunc']);
+
+Route::get('/tentangkita', [allControllers::class, 'aboutFunc']);
+
+Route::get('/laptop&pc', [allControllers::class, 'laptopFunc']);
+
+Route::get('/harddisk', [allControllers::class, 'harddiskFunc']);
+
+Route::get('/printer', [allControllers::class, 'printerFunc']);
+
+
+

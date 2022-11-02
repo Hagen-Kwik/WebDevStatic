@@ -1,32 +1,24 @@
-<nav class="navbar bg-dark navbar-expand-lg">
-    <div class="container-fluid ">
-      <a class="navbar-brand text-white" href="#">BMC</a>
-      <div class="w-75 d-flex justify-content-end">
-        <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-      </div>
-      <div class="d-flex flex-right">
-        <div class="collapse navbar-collapse w-100" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active text-white" aria-current="page" href="/">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="/about">About</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Gadgets
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Hardisk</a></li>
-                  <li><a class="dropdown-item" href="#">PC & Laptop</a></li>
-                  <li><a class="dropdown-item" href="#">Printer</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-      </div>     
-    </div>
-  </nav>
+ <!-- ======= Header ======= -->
+ <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+     <div class="container d-flex justify-content-between align-items-center">
+
+         <div id="logo">
+             <p id="BMClogo"><Strong>BMC</Strong></p>
+         </div>
+
+         <nav id="navbar" class="navbar">
+             <ul>
+                 <li><a class="nav-link active" href="/">Home</a></li>
+                 <li><a class="nav-link" href="/tentangkita">About</a></li>
+                 <li class="dropdown"><a href="#"><span>Gadgets</span> <i class="bi bi-chevron-down"></i></a>
+                     <ul>
+                         <li><a href="/laptop&pc">Hard Disk</a></li>
+                         <li><a href="/harddisk">PC & Laptop</a></li> 
+                         <li><a href="/printer">Printer</a></li>
+                     </ul>
+                 </li>
+             </ul>
+             <i class="bi bi-list mobile-nav-toggle"></i>
+         </nav><!-- .navbar -->
+     </div>
+ </header><!-- End Header -->
