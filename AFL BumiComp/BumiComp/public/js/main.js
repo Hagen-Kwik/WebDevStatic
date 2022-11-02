@@ -9,7 +9,7 @@
         console.log(el);
         if (all) {
             console.log("if");
-            return [document.querySelectorAll(el)]
+            return [...document.querySelectorAll(el)]
         } else {
             console.log("else");
             return document.querySelector(el)
@@ -59,7 +59,7 @@
     /**
      * Toggle .header-scrolled class to #header when page is scrolled
      */
-    let selectHeader = select('#header', true)
+    let selectHeader = select('#header')
     console.log(selectHeader);
     if (selectHeader) {
         const headerScrolled = () => {

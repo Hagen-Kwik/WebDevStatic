@@ -69,7 +69,7 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-6 col-md-6" data-aos="zoom-in">
+                        <div class="col-lg-6 col-md-6  mb-5" data-aos="zoom-in">
                             <div>
                                 <div class="d-flex justify-content-center mb-3">
                                     <img src="image/about us/mail.png" alt="" class="pic">

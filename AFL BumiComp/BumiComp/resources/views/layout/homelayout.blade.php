@@ -8,35 +8,24 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
     <link rel="stylesheet" href="css/index.css" />
-    <script src="others/bootstrap/js/bootstrap.bundle.js"></script>
-    <script src="others/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-
-
+   
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <script src="js/main.js"></script>
-    <script src="js/slider.js" defer></script>
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700"
-        rel="stylesheet">
+    rel="stylesheet">
     
     <!-- Vendor JS Files -->
     <link href="others/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="assets/img/favicon.png" rel="icon">
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-    <script src="others/purecounter/purecounter_vanilla.js"></script>
     <script src="others/aos/aos.js"></script>
-    <script src="others/glightbox/js/glightbox.min.js"></script>
-    <script src="others/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="others/swiper/swiper-bundle.min.js"></script>
-    <script src="others/php-email-form/validate.js"></script>
-    <link href="others/boxicons/css/boxicons.min.css" rel="stylesheet">
-    <link href="others/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="others/swiper/swiper-bundle.min.css" rel="stylesheet">
-    <link href="others/aos/aos.css" rel="stylesheet">
-
-
+    
+    {{-- <script src="others/bootstrap/js/bootstrap.bundle.js"></script> --}}
+    <script src="others/bootstrap/js/bootstrap.bundle.min.js"></script>
+    
+    <script src="js/main.js" defer></script>
+    <script src="js/slider.js" defer></script>
 
 
 

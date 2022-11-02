@@ -611,12 +611,12 @@ section {
     margin-top: 15px;
 }
 
-#team .member .social a {
-    color: #b3b3b3;
+#team .member a {
+    color: white;
 }
 
-#team .member .social a:hover {
-    color: #2dc997;
+#team .member a:hover {
+    color: #b3b3b3;
 }
 
 #team .member .social i {

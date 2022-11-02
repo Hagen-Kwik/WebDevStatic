@@ -84,7 +84,8 @@
                     <div class="member shadowss" data-aos="fade-up" data-aos-delay="100">
                         <h4>PC/Komputer</h4>
                         <div class="pic mt-5"><img src="/image/PC.PNG" alt=""></div>
-                        <div class="text-center mt-5"><button type="submit">See details</button></div>
+                        <div class="text-center mt-5"><a href="/laptop&pc"><button type="submit">See
+                                    details</button></a></div>
                     </div>
                 </div>
 
@@ -92,7 +93,8 @@
                     <div class="member shadowss" data-aos="fade-up" data-aos-delay="300">
                         <h4>Hard Disk</h4>
                         <div class="pic mt-5"><img src="/image/hdd.png" alt=""></div>
-                        <div class="text-center mt-5"><button type="submit">See details</button></div>
+                        <div class="text-center mt-5"><a href="/harddisk"><button type="submit">See details</button></a>
+                        </div>
 
                     </div>
                 </div>
@@ -101,7 +103,8 @@
                     <div class="member shadowss" data-aos="fade-up" data-aos-delay="400">
                         <h4>Printer</h4>
                         <div class="pic mt-5"><img src="/image/printer.png" alt=""></div>
-                        <div class="text-center mt-5"><button type="submit">See details</button></div>
+                        <div class="text-center mt-5"><a href="/printer"><button type="submit">See details</a></button>
+                        </div>
 
                     </div>
                 </div>
