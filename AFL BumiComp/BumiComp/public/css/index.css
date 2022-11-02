@@ -736,6 +736,14 @@
                             color: white;
                             font-size: 30px;
                         }
+                        
+                        #contactpage .section-title {
+                            font-size: 45px;
+                        }
+                        
+                        #contactpage .section-description {
+                            font-size: 27px;
+                        }
                         /*-------------------------------------------------------------- 
 # Footer ------------------------------
 --------------------------------*/

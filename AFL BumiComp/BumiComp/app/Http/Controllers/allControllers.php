@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\Models\review;
+use App\Models\gadgets;
+
 
 class allControllers extends Controller
 {
@@ -37,7 +39,8 @@ class allControllers extends Controller
             'laptop',
             [
                 "pagetitle" => "Laptop",
-                "maintitle" => "Laptop"
+                "maintitle" => "Laptop",
+                'reviews' => gadgets::getEACH('Laptop')
             ]
         );
     }
@@ -48,7 +51,8 @@ class allControllers extends Controller
             'harddisk',
             [
                 "pagetitle" => "Hard Disk",
-                "maintitle" => "Hard Disk"
+                "maintitle" => "Hard Disk",
+                'reviews' => gadgets::index('Laptop')
             ]
         );
     }
@@ -59,7 +63,8 @@ class allControllers extends Controller
             'printer',
             [
                 "pagetitle" => "Printer",
-                "maintitle" => "Printer"
+                "maintitle" => "Printer",
+                'reviews' => gadgets::index('Laptop')
             ]
         );
     }

@@ -3,30 +3,33 @@
 @section('body')
     <!-- ======= Contact Section ======= -->
 
-
-    <section id="contact">
-        <div class="container">
+    <div id=contactpage>
+        <div class="container mb-5">
             <div class="section-header">
-                <h1 class="section-title m-5">Our History</h3>
+                <h1 class="section-title m-5 text-black">Our History</h3>
                     <div class="row">
                         <div class="col-4">
                             <img src="image/about us/toko kami.png" alt="" class="img-fluid">
                         </div>
-                        <div class="col-8">
-                            <p class="section-description">Toko Bumi Makmur Computer berdiri dari tahun 1997. Toko kami sudah
+                        <div class="col-8 align-middle">
+                            <p class="section-description text-black ">Toko Bumi Makmur Computer berdiri dari tahun 1997. Toko
+                                kami sudah
                                 menyediakan jasa Service dan juga menjual aksesoris komputer dan juga sparepart komputer dan
                                 printer. Jasa service yang kami sediakan adalah service cpu, printer, dan berfokuskan kepada
                                 service
                                 HDD (Penarikan data) </p>
-                            <p class="section-description">Saat ini kami sudah bekerja sama dengan Indodata Recovery untuk
-                                menjadi
-                                cabang repair center mereka
-                                di Makassar (Indonesia Timur)</p>
                         </div>
+                        <p class="section-description text-black mt-4">Saat ini kami sudah bekerja sama dengan Indodata
+                            Recovery untuk
+                            menjadi
+                            cabang repair center mereka
+                            di Makassar (Indonesia Timur)</p>
                     </div>
             </div>
         </div>
+    </div>
 
+    <section id="contact">
         <div class="mt-5" data-aos="fade-up">
             <div class="row text-center">
                 <div class="col-6">
