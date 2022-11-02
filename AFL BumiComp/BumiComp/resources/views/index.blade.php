@@ -76,16 +76,14 @@
     </section>
     <!-- End Jasa Service Section -->
 
-
     <!-- ======= Testimonies Section ======= -->
 
-    <section id="services">
+<section id="services">
         <div class="container" data-aos="fade-up">
             <div class="section-header">
                 <h1 class="title">Testimonies</h1>
                 </h2>
             </div>
-
             <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
@@ -108,7 +106,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                
                 <div class="carousel-item" data-bs-interval="2000">
                     <div class="row p-5">
                         <div class="col-3">
@@ -131,7 +129,7 @@
                         </div>
                     </div>
                 </div>
-
+            </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
                     data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -163,7 +161,6 @@
                     <a class="cta-btn align-middle" href="#">Lokasi Kami</a>
                 </div>
             </div>
-
         </div>
     </section>
 @endsection
