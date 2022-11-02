@@ -182,8 +182,6 @@
         })
     });
 
-
-
     /**
      * Initiate Pure Counter 
      */

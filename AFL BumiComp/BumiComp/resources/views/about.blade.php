@@ -30,9 +30,9 @@
     </div>
 
     <section id="contact">
-        <div class="mt-5" data-aos="fade-up">
+        <div data-aos="fade-up">
             <div class="row text-center">
-                <div class="col-6">
+                <div class="col-6 mt-5">
                     <div class="row mb-5">
                         <div class="col-lg-6 col-md-6" data-aos="zoom-in">
                             <div>

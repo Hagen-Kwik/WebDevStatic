@@ -10,29 +10,64 @@
     <!-- ======= About Section ======= -->
     <section id="about">
         <div class="container" data-aos="fade-up">
-            <div class="row about-container">
-
-                {{-- half of the page --}}
-                <div class="col-lg-7 background order-lg-2 order-1" data-aos="fade-left" data-aos-delay="100"></div>
-
-                {{-- other half --}}
-                <div class="col-lg-5 content order-lg-1 order-2">
-                    <h2 class="title">Serviskan Hard Drive yang rusak</h2>
-
-                    <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
-                        <p class="description"> - Hard Disk Korup</p>
+            <div class="about-container">
+                <div class="row">
+                    {{-- half of the page --}}
+                    <div class="col-lg-6">
+                        <div class="mainss">
+                            <div class="containerss">
+                                <div class="image-containerss">
+                                    <img class="image-before slider-image imgss" src="/image/hdd-nofire.png"
+                                        alt="" />
+                                    <img class="image-after slider-image imgss" src="/image/hdd-withfire.png"
+                                        alt="" />
+                                </div>
+                                <!-- step="10" -->
+                                <input type="range" min="0" max="100" value="50"
+                                    aria-label="Percentage of before photo shown" class="slider" />
+                                <div class="slider-line" aria-hidden="true"></div>
+                                <div class="slider-button" aria-hidden="true">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                                        fill="currentColor" viewBox="0 0 256 256">
+                                        <rect width="256" height="256" fill="none"></rect>
+                                        <line x1="128" y1="40" x2="128" y2="216" fill="none"
+                                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="16"></line>
+                                        <line x1="96" y1="128" x2="16" y2="128" fill="none"
+                                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="16"></line>
+                                        <polyline points="48 160 16 128 48 96" fill="none" stroke="currentColor"
+                                            stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></polyline>
+                                        <line x1="160" y1="128" x2="240" y2="128" fill="none"
+                                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="16"></line>
+                                        <polyline points="208 96 240 128 208 160" fill="none" stroke="currentColor"
+                                            stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></polyline>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
-                    <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
-                        <p class="description"> - Recover data hilang</p>
-                    </div>
+                    {{-- other half --}}
+                    <div class="col-lg-6 content order-lg-1 order-2">
+                        <h2 class="title">Serviskan Hard Drive yang rusak</h2>
 
-                    <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
-                        <p class="description"> - Data tidak bisa terakses</p>
+                        <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+                            <p class="description"> - Hard Disk Korup</p>
+                        </div>
+
+                        <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+                            <p class="description"> - Recover data hilang</p>
+                        </div>
+
+                        <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+                            <p class="description"> - Data tidak bisa terakses</p>
+                        </div>
+
                     </div>
 
                 </div>
-
             </div>
         </div>
     </section><!-- End About Section -->
