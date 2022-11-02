@@ -9,7 +9,7 @@
 @section('body')
     <!-- ======= About Section ======= -->
     <section id="about">
-        <div class="container" data-aos="fade-up">
+        <div class="container" data-aos="fade-in">
             <div class="about-container">
                 <div class="row">
                     {{-- half of the page --}}

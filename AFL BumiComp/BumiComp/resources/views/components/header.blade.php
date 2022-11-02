@@ -1,9 +1,9 @@
  <!-- ======= Header ======= -->
- <header id="header" class="fixed-top d-flex align-items-center header-transparent">
-     <div class="container d-flex justify-content-between align-items-center">
+ <header id="header" class="fixed-top d-flex align-items-center header-transparent bg-dark">
+     <div class="container d-flex justify-content-between align-items-center align-middle">
 
-         <div id="logo">
-             <p id="BMClogo"><Strong>BMC</Strong></p>
+         <div id="logo" class="">
+             <p id="BMClogo" class="mt-4"><Strong>BMC</Strong></p>
          </div>
 
          <nav id="navbar" class="navbar">
@@ -19,6 +19,7 @@
                  </li>
              </ul>
              <i class="bi bi-list mobile-nav-toggle"></i>
-         </nav><!-- .navbar -->
+         </nav>
+         <!-- .navbar -->
      </div>
  </header><!-- End Header -->
