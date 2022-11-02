@@ -63,6 +63,7 @@
                                     <img src="image/about us/phone.png" alt="" class="pic">
                                 </div>
                                 <h4 class="title">Kontak: </h4>
+                                <a href="tel:08124217937">Call Now</a>
                                 <p class="description">081 - 24217937</p>
                             </div>
                         </div>
@@ -73,6 +74,7 @@
                                     <img src="image/about us/mail.png" alt="" class="pic">
                                 </div>
                                 <h4 class="title">Email:</h4>
+                                <a href="mailto:bumihoras@gmail.com">Send Email</a>
                                 <p class="description">bumihoras@gmail.com</p>
                             </div>
                         </div>
