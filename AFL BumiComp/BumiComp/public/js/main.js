@@ -1,5 +1,4 @@
 (function() {
-
     "use strict";
 
     /**
@@ -7,9 +6,12 @@
      */
     const select = (el, all = false) => {
         el = el.trim()
+        console.log(el);
         if (all) {
-            return [...document.querySelectorAll(el)]
+            console.log("if");
+            return [document.querySelectorAll(el)]
         } else {
+            console.log("else");
             return document.querySelector(el)
         }
     }
@@ -35,13 +37,34 @@
         el.addEventListener('scroll', listener)
     }
 
+
+    /**
+     * Scrolls to an element with header offset
+     */
+    const scrollto = (el) => {
+        let header = select('#header')
+        let offset = header.offsetHeight
+
+        if (!header.classList.contains('header-scrolled')) {
+            offset -= 20
+        }
+
+        let elementPos = select(el).offsetTop
+        window.scrollTo({
+            top: elementPos - offset,
+            behavior: 'smooth'
+        })
+    }
+
     /**
      * Toggle .header-scrolled class to #header when page is scrolled
      */
-    let selectHeader = select('#header')
+    let selectHeader = select('#header', true)
+    console.log(selectHeader);
     if (selectHeader) {
         const headerScrolled = () => {
             if (window.scrollY > 100) {
+                console.log("HI");
                 selectHeader.classList.add('header-scrolled')
             } else {
                 selectHeader.classList.remove('header-scrolled')

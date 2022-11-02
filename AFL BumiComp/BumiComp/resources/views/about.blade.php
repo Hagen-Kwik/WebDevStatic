@@ -12,7 +12,8 @@
                             <img src="image/about us/toko kami.png" alt="" class="img-fluid">
                         </div>
                         <div class="col-8 align-middle">
-                            <p class="section-description text-black ">Toko Bumi Makmur Computer berdiri dari tahun 1997. Toko
+                            <p class="section-description text-black ">Toko Bumi Makmur Computer berdiri dari tahun 1997.
+                                Toko
                                 kami sudah
                                 menyediakan jasa Service dan juga menjual aksesoris komputer dan juga sparepart komputer dan
                                 printer. Jasa service yang kami sediakan adalah service cpu, printer, dan berfokuskan kepada
@@ -63,8 +64,8 @@
                                     <img src="image/about us/phone.png" alt="" class="pic">
                                 </div>
                                 <h4 class="title">Kontak: </h4>
-                                <a href="tel:08124217937">Call Now</a>
-                                <p class="description">081 - 24217937</p>
+                                <p class="description mb-1">081 - 24217937</p>
+                                <a href="tel:08124217937" class="m-1">Call Now</a>
                             </div>
                         </div>
 
@@ -74,8 +75,8 @@
                                     <img src="image/about us/mail.png" alt="" class="pic">
                                 </div>
                                 <h4 class="title">Email:</h4>
-                                <a href="mailto:bumihoras@gmail.com">Send Email</a>
-                                <p class="description">bumihoras@gmail.com</p>
+                                <p class="description mb-1">bumihoras@gmail.com</p>
+                                <a href="mailto:bumihoras@gmail.com" class="m-1">Send Email</a>
                             </div>
                         </div>
                     </div>
@@ -83,11 +84,12 @@
 
 
                 <div class="col-6">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22864.11283411948!2d-73.96468908098944!3d40.630720240038435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sbg!4v1540447494452"
-                        width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <iframe width="100%" height="100%" style="border:0" allowfullscreen
+                        src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=-5.122760074446871,%20119.4159239711489+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
                 </div>
+
             </div>
+        </div>
         </div>
 
 

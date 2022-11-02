@@ -203,7 +203,7 @@
             </div>
             <div class="row text-lg-start">
                 <div class="col-lg-3 cta-btn-container text-center">
-                    <a class="cta-btn align-middle" href="#">Lokasi Kami</a>
+                    <a class="cta-btn align-middle" href="/tentangkita">Lokasi Kami</a>
                 </div>
             </div>
         </div>
