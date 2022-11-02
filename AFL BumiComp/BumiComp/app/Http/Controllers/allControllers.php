@@ -40,7 +40,7 @@ class allControllers extends Controller
             [
                 "pagetitle" => "Laptop",
                 "maintitle" => "Laptop",
-                'reviews' => gadgets::getEACH('Laptop')
+                'reviews' => gadgets::getEACH('PC & Laptop')
             ]
         );
     }
@@ -52,7 +52,7 @@ class allControllers extends Controller
             [
                 "pagetitle" => "Hard Disk",
                 "maintitle" => "Hard Disk",
-                'reviews' => gadgets::index('Laptop')
+                'reviews' => gadgets::getEACH('Hard Disk')
             ]
         );
     }
@@ -64,7 +64,7 @@ class allControllers extends Controller
             [
                 "pagetitle" => "Printer",
                 "maintitle" => "Printer",
-                'reviews' => gadgets::index('Laptop')
+                'reviews' => gadgets::getEACH('Printer')
             ]
         );
     }
