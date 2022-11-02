@@ -78,7 +78,7 @@
 
     <!-- ======= Testimonies Section ======= -->
 
-<section id="services">
+    <section id="services">
         <div class="container" data-aos="fade-up">
             <div class="section-header">
                 <h1 class="title">Testimonies</h1>
@@ -97,50 +97,49 @@
                     @php
                         $i = 0;
                     @endphp
-                @foreach ($reviews as $review)
-                    @if ($i == 0)
-                        <div class="carousel-item active" data-bs-interval="10000">
-                            <div class="row p-5">
-                                <div class="col-3">
-                                    <img src="{{ $review['profilepicture'] }}" class="d-block w-100" alt="...">
-                                </div>
-                                <div class="col-8">
-                                    <h1>"{{ $review['komen'] }}"</h1>
-                                    <h2>{{ $review['nama'] }}</h2>
+                    @foreach ($reviews as $review)
+                        @if ($i == 0)
+                            <div class="carousel-item active" data-bs-interval="10000">
+                                <div class="row p-5">
+                                    <div class="col-3">
+                                        <img src="{{ $review['profilepicture'] }}" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="col-8">
+                                        <h1>"{{ $review['komen'] }}"</h1>
+                                        <h2>{{ $review['nama'] }}</h2>
+                                    </div>
                                 </div>
                             </div>
+                            @php
+                                $i++;
+                            @endphp
+                        @endif
+                    @endforeach
+
+
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <div class="row p-5">
+                            <div class="col-3">
+                                <img src="image/laki2.jpeg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="col-8">
+                                <h1>"untungnya ada ini toko, dataku bisa selamat"</h1>
+                                <h2>Bambang</h2>
+                            </div>
                         </div>
-                        @php
-                            $i++;
-                        @endphp
-                                    
-                    @endif
-                @endforeach   
-                    
-                
-                <div class="carousel-item" data-bs-interval="2000">
-                    <div class="row p-5">
-                        <div class="col-3">
-                            <img src="image/laki2.jpeg" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="col-8">
-                            <h1>"untungnya ada ini toko, dataku bisa selamat"</h1>
-                            <h2>Bambang</h2>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row p-5">
+                            <div class="col-3">
+                                <img src="image/wanita3.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="col-8">
+                                <h1>"pelayanannya bagus dan cepat, nda di tipu tipuki juga"</h1>
+                                <h2>Yanti</h2>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <div class="row p-5">
-                        <div class="col-3">
-                            <img src="image/wanita3.jpg" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="col-8">
-                            <h1>"pelayanannya bagus dan cepat, nda di tipu tipuki juga"</h1>
-                            <h2>Yanti</h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
                     data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>

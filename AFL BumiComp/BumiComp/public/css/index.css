@@ -814,3 +814,15 @@
                             background-color: white;
                             padding: 50px;
                         }
+                        
+                        #pic img {
+                            height: 50vh;
+                            width: 50vh;
+                            float: left;
+                            margin-right: 50px;
+                        }
+                        
+                        #pic {
+                            padding: 50px;
+                            padding-top: 5px;
+                        }

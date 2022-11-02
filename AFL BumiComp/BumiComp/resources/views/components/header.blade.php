@@ -12,8 +12,8 @@
                  <li><a class="nav-link" href="/tentangkita">About</a></li>
                  <li class="dropdown"><a href="#"><span>Gadgets</span> <i class="bi bi-chevron-down"></i></a>
                      <ul>
-                         <li><a href="/laptop&pc">Hard Disk</a></li>
-                         <li><a href="/harddisk">PC & Laptop</a></li> 
+                         <li><a href="/harddisk">Hard Disk</a></li>
+                         <li><a href="/laptop&pc">PC & Laptop</a></li> 
                          <li><a href="/printer">Printer</a></li>
                      </ul>
                  </li>
