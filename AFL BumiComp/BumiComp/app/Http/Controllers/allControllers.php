@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\review;
 
 class allControllers extends Controller
 {
@@ -12,7 +13,8 @@ class allControllers extends Controller
             [
                 "pagetitle" => "Home",
                 "maintitle" => "Servis Elektronik dengan mudah",
-                "tagline" => "Reservasi dan kontak kami sekarang untk menservis perangkat kalian"
+                "tagline" => "Reservasi dan kontak kami sekarang untk menservis perangkat kalian",
+                'reviews' => review::index()
             ]
         );
     }

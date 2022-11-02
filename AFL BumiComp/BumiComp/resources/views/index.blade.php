@@ -94,18 +94,29 @@
                         aria-label="Slide 3"></button>
                 </div>
                 <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval="10000">
-                        <div class="row p-5">
-                            <div class="col-3">
-                                <img src="image/girl1.jpg" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="col-8">
-                                <h1>"memang tongmi spesialis hardis, pusingkumi bawa ke tempat lain tapi nda bisa. barupi di
-                                    sini bisa"</h1>
-                                <h2>Julianti</h2>
+                    @php
+                        $i = 0;
+                    @endphp
+                @foreach ($reviews as $review)
+                    @if ($i == 0)
+                        <div class="carousel-item active" data-bs-interval="10000">
+                            <div class="row p-5">
+                                <div class="col-3">
+                                    <img src="{{ $review['profilepicture'] }}" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="col-8">
+                                    <h1>"{{ $review['komen'] }}"</h1>
+                                    <h2>{{ $review['nama'] }}</h2>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                        @php
+                            $i++;
+                        @endphp
+                                    
+                    @endif
+                @endforeach   
+                    
                 
                 <div class="carousel-item" data-bs-interval="2000">
                     <div class="row p-5">
