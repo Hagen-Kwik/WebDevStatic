@@ -132,48 +132,36 @@
                         aria-label="Slide 3"></button>
                 </div>
                 <div class="carousel-inner">
-                    @php
-                        $i = 0;
-                    @endphp
-                    @foreach ($reviews as $review)
-                        @if ($i == 0)
-                            <div class="carousel-item active" data-bs-interval="10000">
-                                <div class="row p-5">
-                                    <div class="col-3">
-                                        <img src="{{ $review['profilepicture'] }}" class="d-block w-100" alt="...">
-                                    </div>
-                                    <div class="col-8">
-                                        <h1>"{{ $review['komen'] }}"</h1>
-                                        <h2>{{ $review['nama'] }}</h2>
-                                    </div>
-                                </div>
-                            </div>
-                            @php
-                                $i++;
-                            @endphp
-                        @endif
-                    @endforeach
-
-
-                    <div class="carousel-item" data-bs-interval="2000">
+                    <div class="carousel-item active" data-bs-interval="10000">
                         <div class="row p-5">
                             <div class="col-3">
-                                <img src="image/laki2.jpeg" class="d-block w-100" alt="...">
+                                <img src="{{ $reviews[0]['profilepicture'] }}" class="d-block w-100" alt="...">
                             </div>
                             <div class="col-8">
-                                <h1>"untungnya ada ini toko, dataku bisa selamat"</h1>
-                                <h2>Bambang</h2>
+                                <h1>"{{ $reviews[0]['komen'] }}"</h1>
+                                <h2>{{ $reviews[0]['nama'] }}</h2>
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item">
+                    <div class="carousel-item" data-bs-interval="10000">
                         <div class="row p-5">
                             <div class="col-3">
-                                <img src="image/wanita3.jpg" class="d-block w-100" alt="...">
+                                <img src="{{ $reviews[1]['profilepicture'] }}" class="d-block w-100" alt="...">
                             </div>
                             <div class="col-8">
-                                <h1>"pelayanannya bagus dan cepat, nda di tipu tipuki juga"</h1>
-                                <h2>Yanti</h2>
+                                <h1>"{{ $reviews[1]['komen'] }}"</h1>
+                                <h2>{{ $reviews[1]['nama'] }}</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="10000">
+                        <div class="row p-5">
+                            <div class="col-3">
+                                <img src="{{ $reviews[2]['profilepicture'] }}" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="col-8">
+                                <h1>"{{ $reviews[2]['komen'] }}"</h1>
+                                <h2>{{ $reviews[2]['nama'] }}</h2>
                             </div>
                         </div>
                     </div>
