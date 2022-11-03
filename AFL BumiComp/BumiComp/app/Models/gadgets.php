@@ -41,7 +41,7 @@ class gadgets extends Model
             'description' =>  [
                 'Masalah yang umum di printer adalah hasil cetakan jelek, roler kertas tidak berfungsi nornal sehingga kertas tidak tertarik. Printer juga dapat mati total yaitu printernya tidak mau nyala apapun usaha kita untuk menyalakan dia dll. Masalah masalah di atas merupakan masalah dari partnya',
                 'Selain dari kerusakan part, printer bisa rusak jika ada benda asing yang masuk kedalam printer sebagai contoh pin atau penutup pulpen. Untuk kerusakan seperti ini biayanya akan berbeda jika dibandingkan dengan kerusakan yang diakibatkan karena kerusakan part.',
-                'Untuk proses reparasi printer itu miip dengan reparasi Hardisk adalah anda harus menitipkan printer dulu untuk dicek kemudian anda akan diinfokan jika anda ingin melanjutkan untuk mengerjakan printernya. Lama waktu pengerjaan dan juga biaya pengerjaan selalu berdasarkan hasil dari cek. Jika anda tidak ingin untuk melanjutkan pengerjaan, anda hanya akan dibiayakan biaya pemeriksaan sebesar 50000.'
+                'Untuk proses reparasi printer itu miip dengan reparasi Hardisk adalah anda harus menitipkan printer dulu untuk dicek kemudian anda akan diinfokan jika anda ingin melanjutkan untuk mengerjakan printernya. Lama waktu pengerjaan dan juga biaya pengerjaan selalu berdasarkan hasil dari cek. Jika anda tidak ingin untuk melanjutkan pengerjaan, anda TIDAK akan dibiayakan biaya pemeriksaan.'
             ],
             'picture' =>  'printer.png'
         ]
