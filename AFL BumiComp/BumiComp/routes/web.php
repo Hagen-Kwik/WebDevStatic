@@ -20,6 +20,8 @@ Route::get('/', [allControllers::class, 'homeFunc']);
 Route::get('/tentangkita', [allControllers::class, 'aboutFunc']);
 Route::get('/mengapakita', [allControllers::class, 'whyusFunc']);
 
+Route::get('/kontakkami', [allControllers::class, 'contact']);
+
 Route::get('/laptop&pc', [allControllers::class, 'laptopFunc']);
 
 Route::get('/harddisk', [allControllers::class, 'harddiskFunc']);

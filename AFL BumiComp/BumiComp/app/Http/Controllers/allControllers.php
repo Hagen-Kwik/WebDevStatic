@@ -46,6 +46,17 @@ class allControllers extends Controller
         );
     }
 
+    public function contact()
+    {
+        return view(
+            'kontak',
+            [
+                "pagetitle" => "Kontak Kami",
+                "maintitle" => "Kontak Kami"
+            ]
+        );
+    }
+
     public function laptopFunc()
     {
         return view(

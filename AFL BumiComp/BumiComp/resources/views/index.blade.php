@@ -14,7 +14,7 @@
                 <div class="row">
                     {{-- half of the page --}}
                     <div class="col-lg-6">
-                        
+                        <img src="/image/logoBumiComp.png"
                     </div>
 
                     {{-- other half --}}
@@ -220,7 +220,7 @@
             </div>
             <div class="row text-lg-start">
                 <div class="col-lg-3 cta-btn-container text-center">
-                    <a class="cta-btn align-middle" href="/tentangkita">Lokasi Kami</a>
+                    <a class="cta-btn align-middle" href="/kontakkami">Lokasi Kami</a>
                 </div>
             </div>
         </div>

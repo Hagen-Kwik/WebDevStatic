@@ -22,6 +22,7 @@
                          <li><a href="/printer">Printer</a></li>
                      </ul>
                  </li>
+                 <li><a class="nav-link" href="/kontakkami">Kontak</a></li>
              </ul>
              <i class="bi bi-list mobile-nav-toggle"></i>
          </nav>

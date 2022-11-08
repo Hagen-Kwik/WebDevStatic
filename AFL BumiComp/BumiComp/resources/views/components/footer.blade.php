@@ -15,7 +15,7 @@
             |
             <a class="me-1 ms-1" href="/printer">Printer</a>
             |
-            <a class="me-1 ms-1" href="/kontak">Kontak</a>
+            <a class="me-1 ms-1" href="/kontakkami">Kontak</a>
         </div>
 
         <div class="credits">
