@@ -11,7 +11,7 @@
                         <div class="col-md-4">
                             <img src="image/about us/toko kami.png" alt="" class="img-fluid">
                         </div>
-                        <div class="col-md-8 align-middle">
+                        <div class="col-md-8 align-middle textspecial">
                             <p class="section-description text-black ">Pada tahun 1970 dan awal 1980 dimana Indonesia mulai memasuki era modernisasi, banyak orang yang mencari asisten dalam perbaikan komputer.
                                 Hal ini mengacu pada perkembangan teknik baik untuk memperbaiki suatu kondisi komputer kembali ke kondisi awalnya ataupun teknik untuk menyelamatkan dan mengembalikan data dari media penyimpanan yang rusak.
                             </p>

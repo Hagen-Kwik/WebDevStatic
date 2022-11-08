@@ -7,7 +7,7 @@
         <img src="/image/{{ $info['picture'] }}" alt="pic"></td>
         
         @foreach ($info['description'] as $a)
-            <h5>
+            <h5 class="textspecial">
                 {{ $a }}
             </h5>
         @endforeach

@@ -572,6 +572,7 @@ section {
     margin-bottom: 50px;
     font-size: 30px;
     line-height: 1;
+    text-align: justify;
 }
 
 
@@ -857,6 +858,10 @@ button[type=submit]:hover {
 
 html {
     box-sizing: border-box;
+}
+
+.textspecial {
+    text-align: justify;
 }
 
 
