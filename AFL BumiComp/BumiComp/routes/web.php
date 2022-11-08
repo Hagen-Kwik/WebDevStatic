@@ -18,6 +18,7 @@ use App\Http\Controllers\allControllers;
 Route::get('/', [allControllers::class, 'homeFunc']);
 
 Route::get('/tentangkita', [allControllers::class, 'aboutFunc']);
+Route::get('/mengapakita', [allControllers::class, 'whyusFunc']);
 
 Route::get('/laptop&pc', [allControllers::class, 'laptopFunc']);
 

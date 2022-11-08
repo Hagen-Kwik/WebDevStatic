@@ -14,55 +14,25 @@
                 <div class="row">
                     {{-- half of the page --}}
                     <div class="col-lg-6">
-                        <div class="mainss">
-                            <div class="containerss">
-                                <div class="image-containerss">
-                                    <img class="image-before slider-image imgss" src="/image/hdd-nofire.png"
-                                        alt="" />
-                                    <img class="image-after slider-image imgss" src="/image/hdd-withfire.png"
-                                        alt="" />
-                                </div>
-                                <!-- step="10" -->
-                                <input type="range" min="0" max="100" value="50"
-                                    aria-label="Percentage of before photo shown" class="slider" />
-                                <div class="slider-line" aria-hidden="true"></div>
-                                <div class="slider-button" aria-hidden="true">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
-                                        fill="currentColor" viewBox="0 0 256 256">
-                                        <rect width="256" height="256" fill="none"></rect>
-                                        <line x1="128" y1="40" x2="128" y2="216" fill="none"
-                                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                            stroke-width="16"></line>
-                                        <line x1="96" y1="128" x2="16" y2="128" fill="none"
-                                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                            stroke-width="16"></line>
-                                        <polyline points="48 160 16 128 48 96" fill="none" stroke="currentColor"
-                                            stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></polyline>
-                                        <line x1="160" y1="128" x2="240" y2="128" fill="none"
-                                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                            stroke-width="16"></line>
-                                        <polyline points="208 96 240 128 208 160" fill="none" stroke="currentColor"
-                                            stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></polyline>
-                                    </svg>
-                                </div>
-                            </div>
-                        </div>
+                        
                     </div>
 
                     {{-- other half --}}
-                    <div class="col-lg-6 content order-lg-1 order-2">
-                        <h2 class="title">Serviskan Hard Drive yang rusak</h2>
+                    <div class="col content order-lg-1">
+                        <h2 class="title">Tentang kami</h2>
 
                         <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
-                            <p class="description"> - Hard Disk Korup</p>
+                            <p class="description">Proses service peralatan komputer adalah sebuah proses identifikasi dan penyelesaian permasalahan yang mengganggu peralatan komputer anda. Beberapa contoh peralatan yang rusak adalah CPU, Laptop, Printer, dan juga Hardisk
+                            </p>
                         </div>
 
                         <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
-                            <p class="description"> - Recover data hilang</p>
+                            <p class="description">Data Recovery adalah sebuah proses mengakses dan merecovery informasi digital yang tersimpan di media penyimpanan dimana tidak bisa diakses secara normal. Berbagai kerusakan yang umum yang membutuhkan proses Recovery Hardisk adalahi: Data terhapus, HDD/SSD Rusak sehingga tidak bisa diakses, dll
+                            </p>
                         </div>
 
                         <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
-                            <p class="description"> - Data tidak bisa terakses</p>
+                            <p class="description">Kami - Bumi Makmur Computer - telah berpengalaman lebih dari 20 tahun dalam bidang-bidang diatas. Dengan dukungan Hardware dan Software yang kompleks, kami akan menjadi pilihan terbaik untuk solusi masalah peralatan komputer anda...<a href="/tentangkita">selengkapnya</a></p>
                         </div>
 
                     </div>
@@ -76,7 +46,7 @@
     <section id="team">
         <div class="container text-center" data-aos="fade-up">
             <div class="section-header">
-                <h3 class="section-title">Jasa Servis Kami Termasuk</h3>
+                <h3 class="section-title">Layanan Kami</h3>
                 <p class="section-description">Toko kami memberi beberapa servis yang dapat kalian pilih, mereka adalah</p>
             </div>
             <div class="row">
@@ -119,7 +89,7 @@
     <section id="services">
         <div class="container" data-aos="fade-up">
             <div class="section-header">
-                <h1 class="title">Testimonies</h1>
+                <h1 class="title">Apa Kata Mereka?</h1>
                 </h2>
             </div>
             <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
@@ -132,7 +102,7 @@
                         aria-label="Slide 3"></button>
                 </div>
                 <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval="10000">
+                    <div class="carousel-item active" data-bs-interval="10000" style="height: 300px">
                         <div class="row p-5">
                             <div class="col-3">
                                 <img src="{{ $reviews[0]['profilepicture'] }}" class="d-block w-100" alt="...">
@@ -143,7 +113,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item" data-bs-interval="10000">
+                    <div class="carousel-item" data-bs-interval="10000" style="height: 300px">
                         <div class="row p-5">
                             <div class="col-3">
                                 <img src="{{ $reviews[1]['profilepicture'] }}" class="d-block w-100" alt="...">
@@ -154,7 +124,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item" data-bs-interval="10000">
+                    <div class="carousel-item" data-bs-interval="10000" style="height: 300px">
                         <div class="row p-5">
                             <div class="col-3">
                                 <img src="{{ $reviews[2]['profilepicture'] }}" class="d-block w-100" alt="...">
@@ -180,7 +150,63 @@
 
         </div>
     </section>
-    <!-- End Services Section -->
+    <!-- End Testimonies Section -->
+
+<!-- ======= Supported File Section ======= -->
+<section id="team">
+    <div class="container text-center" data-aos="fade-up">
+        <div class="section-header">
+            <h3 class="section-title">Supported File System</h3>
+            <p class="section-description">Toko kami memberi beberapa servis yang dapat kalian pilih, mereka adalah</p>
+        </div>
+    </div>
+</section>
+<!-- End supported file Section -->
+
+<!-- ======= Testimonies Section ======= -->
+
+<section id="services">
+    <div class="container" data-aos="fade-up">
+        <div class="section-header">
+            <h1 class="title">Klien Kami</h1>
+            </h2>
+        </div>
+    
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('.customer-logos').slick({
+                    slidesToShow: 6,
+                    slidesToScroll: 1,
+                    autoplay: true,
+                    autoplaySpeed: 1000,
+                    arrows: false,
+                    dots: false,
+                        pauseOnHover: false,
+                        responsive: [{
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 4
+                        }
+                    }, {
+                        breakpoint: 520,
+                        settings: {
+                            slidesToShow: 3
+                        }
+                    }]
+                });
+            });
+        </script>
+        <div class="customer-logos">
+            @foreach ($clients as $client)
+            <div class="slide h-100 align-middle"><img class="h-100" src="{{ $client['logo'] }}"></div>   
+            @endforeach
+         </div>
+        
+
+    </div>
+</section>
+<!-- End Testimonies Section -->
+
 
     {{-- Carilah kami sekarang section --}}
     <section id="call-to-action">

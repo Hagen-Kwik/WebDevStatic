@@ -6,22 +6,48 @@
     <div id=contactpage>
         <div class="container mb-5">
             <div class="section-header">
-                <h1 class="section-title m-5 text-black">Tentang kami</h3>
+                <h1 class="section-title m-5 text-black">Mengapa kami</h3>
                     <div class="row">
                         <div class="col-md-4">
-                            <img src="image/about us/toko kami.png" alt="" class="img-fluid">
+                            <div class="containerss">
+                                <div class="image-containerss">
+                                    <img class="image-before slider-image imgss" src="/image/hdd-nofire.png"
+                                        alt="" />
+                                    <img class="image-after slider-image imgss" src="/image/hdd-withfire.png"
+                                        alt="" />
+                                </div>
+                                <!-- step="10" -->
+                                <input type="range" min="0" max="100" value="50"
+                                    aria-label="Percentage of before photo shown" class="slider" />
+                                <div class="slider-line" aria-hidden="true"></div>
+                                <div class="slider-button" aria-hidden="true">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                                        fill="currentColor" viewBox="0 0 256 256">
+                                        <rect width="256" height="256" fill="none"></rect>
+                                        <line x1="128" y1="40" x2="128" y2="216" fill="none"
+                                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="16"></line>
+                                        <line x1="96" y1="128" x2="16" y2="128" fill="none"
+                                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="16"></line>
+                                        <polyline points="48 160 16 128 48 96" fill="none" stroke="currentColor"
+                                            stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></polyline>
+                                        <line x1="160" y1="128" x2="240" y2="128" fill="none"
+                                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="16"></line>
+                                        <polyline points="208 96 240 128 208 160" fill="none" stroke="currentColor"
+                                            stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></polyline>
+                                    </svg>
+                                </div>
+                            </div>
                         </div>
                         <div class="col-md-8 align-middle">
-                            <p class="section-description text-black ">Pada tahun 1970 dan awal 1980 dimana Indonesia mulai memasuki era modernisasi, banyak orang yang mencari asisten dalam perbaikan komputer.
-                                Hal ini mengacu pada perkembangan teknik baik untuk memperbaiki suatu kondisi komputer kembali ke kondisi awalnya ataupun teknik untuk menyelamatkan dan mengembalikan data dari media penyimpanan yang rusak.
+                            <p class="section-description text-black ">Kehilangan DATA PENTING karena kerusakan perangkat keras ketika kita tidak memliki backup adalah sesuattu hal yang sangat menakutkan.
                             </p>
                         </div>
-                        <p class="section-description text-black mt-4">Didukung oleh meningkatnya kebutuhan akan jasa perbaikan komputer dan penarikan data, Bumi makmur computer didirikan pada tahun 1997. 
-                            Semenjak itu, Bumi Makmur Computer telah berkembang menjadi pusat Data recovery di Sulawesi Selatan dan juga salah satu pusat service komputer/peralatan komputer di Sulawesi Selatan.
+                        <p class="section-description text-black mt-4">Riset membuktikan bahwa lebih dari 88% perusahaan yang kehilangan data penting/critical akan memerlukan waktu dan biaya yang tidak sedikit untuk memulihkan kondisi bisnis perusahaan. Kami sebagai salah satu data recovery yang telah memiliki reputasi selalu mengupayakan yang terbaik dan berbagai cara untuk membantu mengembalikan data penting yang hilang tersebut.
                         </p>
-                        <p class="section-description text-black mt-4">Disini kami dapat membantu anda untuk mengembalikan data yang hilang dari berbagai media penyimpanan data dan sistem seperti Hard disk, RAID, USB, dan Memory Card. Disini kami juga dapat memperbaiki CPU, Laptop, dan Printer anda
-                        </p>
-                        <p class="section-description text-black fw-bold mt-4">Kepuasan pelanggan adalah prioritas kami dan kami akan selalu menjaga keamanan dan kerahasiaan data anda dari pihak manapun.
+                        <p class="section-description text-black fw-bold mt-4">Sebelum anda membuat pilihan yang tergesa gesa ketika hard disk anda bermasalah, pertimbangkan dulu kompetensi tempat yang anda ingin hubungi sebab kesalahan penanganan mungkin bisa memperparah kerusakan harddisk anda
                         </p>
                     </div>
             </div>

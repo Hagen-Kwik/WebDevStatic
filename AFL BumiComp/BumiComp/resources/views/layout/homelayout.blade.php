@@ -26,6 +26,9 @@
     
     <script src="js/main.js" defer></script>
     <script src="js/slider.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js" type="text/javascript" ></script>
+    <script src="js/slick.js" type="text/javascript" charset="utf-8"></script>
+
 
 
 

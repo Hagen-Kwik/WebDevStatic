@@ -14,6 +14,8 @@
             <a class="me-1 ms-1" href="/harddisk">PC & Laptop</a>
             |
             <a class="me-1 ms-1" href="/printer">Printer</a>
+            |
+            <a class="me-1 ms-1" href="/kontak">Kontak</a>
         </div>
 
         <div class="credits">

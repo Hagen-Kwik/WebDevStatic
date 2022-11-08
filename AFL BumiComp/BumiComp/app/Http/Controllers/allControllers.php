@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\customer;
 use App\Models\review;
 use App\Models\gadgets;
 
@@ -16,7 +17,8 @@ class allControllers extends Controller
                 "pagetitle" => "Home",
                 "maintitle" => "Servis Elektronik dengan mudah",
                 "tagline" => "Reservasi dan kontak kami sekarang untk menservis perangkat kalian",
-                'reviews' => review::index()
+                'reviews' => review::index(),
+                'clients' => customer::index()
             ]
         );
     }
@@ -28,7 +30,18 @@ class allControllers extends Controller
             'about',
             [
                 "pagetitle" => "About Us",
-                "maintitle" => "About Us"
+                "maintitle" => "Tentang kami"
+            ]
+        );
+    }
+
+    public function whyusfunc()
+    {
+        return view(
+            'mengapakita',
+            [
+                "pagetitle" => "About Us",
+                "maintitle" => "Mengapa kami"
             ]
         );
     }
