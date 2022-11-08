@@ -11,11 +11,11 @@
     <section id="about">
         <div class="container" data-aos="fade-in">
             <div class="about-container">
-                <div class="row text-center">
+                <div class="row text-center align-items-center">
                     <h2 class="title">Tentang kami</h2>
 
                     {{-- half of the page --}}
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 ">
                         <img class="spesial img-fluid" src="/image/logoBumiComp.png">
                     </div>
 
@@ -178,14 +178,14 @@
             </div>
             <div class="row">
                 <div class="col-lg-2 col-md-4">
-                    <div class="member shadowss" data-aos="fade-up" data-aos-delay="100">
+                    <div class="members shadowss" data-aos="fade-up" data-aos-delay="100">
                         <div class="picsupported mt-5"><img class="img-fluid" src="{{ $s['logo'] }}" alt="">
                         </div>
                     </div>
                 </div>
             @else
                 <div class="col-lg-2 col-md-4">
-                    <div class="member shadowss" data-aos="fade-up" data-aos-delay="100">
+                    <div class="members shadowss" data-aos="fade-up" data-aos-delay="100">
                         <div class="picsupported mt-5"><img class="img-fluid" src="{{ $s['logo'] }}" alt="">
                         </div>
                     </div>

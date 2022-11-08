@@ -589,23 +589,30 @@ section {
     border-radius: 10px;
 }
 
+#team .members {
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
 #team .member .pic {
     margin-bottom: 15px;
     overflow: hidden;
+    height: 250px;
 }
 
 #team .member .pic img {
     max-width: 100%;
 }
 
-#team .member .picsupported {
+#team .members .picsupported {
     margin-bottom: 15px;
     overflow: hidden;
     height: 110px;
 }
 
 @media (max-width: 768px) {
-    #team .member .picsupported {
+    #team .members .picsupported {
         margin-bottom: 15px;
         overflow: hidden;
         height: 100%;
@@ -1049,8 +1056,4 @@ html {
 
 .slick-arrow.slick-hidden {
     display: none;
-}
-
-.spesial {
-    object-fit: cover;
 }
