@@ -10,17 +10,19 @@
     <!-- ======= About Section ======= -->
     <section id="about">
         <div class="container" data-aos="fade-in">
-            <div class="about-container">
-                <div class="row text-center align-items-center">
-                    <h2 class="title">Tentang kami</h2>
+            <div class="about-container container-fluid">
+                <div class="row text-center ">
+                    <h2 class="title mb-5">Tentang kami</h2>
 
                     {{-- half of the page --}}
-                    <div class="col-lg-6 ">
-                        <img class="spesial img-fluid" src="/image/logoBumiComp.png">
+                    <div class="col-lg-3 col-sm-12">
+                        <div class="container">
+                            <img class="special" src="/image/logoBumiComp.png">
+                        </div>
                     </div>
 
                     {{-- other half --}}
-                    <div class="col content order-lg-1 text-start">
+                    <div class="col-lg-9 col-sm-12 align-center text-start">
 
                         <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
                             <p class="description">Proses service peralatan komputer adalah sebuah proses identifikasi dan
@@ -29,27 +31,30 @@
                             </p>
                         </div>
 
-                        <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
-                            <p class="description">Data Recovery adalah sebuah proses mengakses dan merecovery informasi
-                                digital yang tersimpan di media penyimpanan dimana tidak bisa diakses secara normal.
-                                Berbagai kerusakan yang umum yang membutuhkan proses Recovery Hardisk adalahi: Data
-                                terhapus, HDD/SSD Rusak sehingga tidak bisa diakses, dll
-                            </p>
-                        </div>
+                    </div>
+                </div>
 
-                        <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
-                            <p class="description">Kami - Bumi Makmur Computer - telah berpengalaman lebih dari 20 tahun
-                                dalam bidang-bidang diatas. Dengan dukungan Hardware dan Software yang kompleks, kami akan
-                                menjadi pilihan terbaik untuk solusi masalah peralatan komputer anda...<a
-                                    href="/tentangkita">selengkapnya</a></p>
-                        </div>
-
+                <div class="row text-center mt-3">
+                    <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+                        <p class="description">Data Recovery adalah sebuah proses mengakses dan merecovery informasi
+                            digital yang tersimpan di media penyimpanan dimana tidak bisa diakses secara normal.
+                            Berbagai kerusakan yang umum yang membutuhkan proses Recovery Hardisk adalahi: Data
+                            terhapus, HDD/SSD Rusak sehingga tidak bisa diakses, dll
+                        </p>
                     </div>
 
+                    <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+                        <p class="description">Kami - Bumi Makmur Computer - telah berpengalaman lebih dari 20 tahun
+                            dalam bidang-bidang diatas. Dengan dukungan Hardware dan Software yang kompleks, kami akan
+                            menjadi pilihan terbaik untuk solusi masalah peralatan komputer anda...<a
+                                href="/tentangkita">selengkapnya</a></p>
+                    </div>
                 </div>
             </div>
+
         </div>
     </section><!-- End About Section -->
+
 
     <!-- ======= Jasa Service Section ======= -->
     <section id="team">
