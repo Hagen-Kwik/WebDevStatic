@@ -16,7 +16,7 @@
 
                     {{-- half of the page --}}
                     <div class="col-lg-6">
-                        <img class="img-fluid" src="/image/logoBumiComp.png">
+                        <img class="spesial img-fluid" src="/image/logoBumiComp.png">
                     </div>
 
                     {{-- other half --}}
@@ -217,7 +217,7 @@
                     @else
                         <div class="slide h-100 align-middle"><img class="h-100" src="{{ $client['logo'] }}">
                             @if ($client['cabang_mskr'] == 'true')
-                                <h5>*Hanya di Cabang Makassar</h5>
+                                <h5>*Cabang Sulawesi</h5>
                             @endif
                         </div>
                     @endif

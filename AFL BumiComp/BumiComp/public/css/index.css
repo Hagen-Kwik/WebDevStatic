@@ -559,6 +559,10 @@ section {
     line-height: 26px;
 }
 
+.spesial {
+    height: 50%;
+}
+
 #about .about-container p:last-child {
     margin-bottom: 0;
 }
@@ -588,7 +592,6 @@ section {
 #team .member .pic {
     margin-bottom: 15px;
     overflow: hidden;
-    height: 260px;
 }
 
 #team .member .pic img {
