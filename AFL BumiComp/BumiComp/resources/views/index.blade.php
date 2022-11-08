@@ -11,28 +11,37 @@
     <section id="about">
         <div class="container" data-aos="fade-in">
             <div class="about-container">
-                <div class="row">
+                <div class="row text-center">
+                    <h2 class="title">Tentang kami</h2>
+
                     {{-- half of the page --}}
                     <div class="col-lg-6">
-                        <img src="/image/logoBumiComp.png"
+                        <img class="img-fluid" src="/image/logoBumiComp.png">
                     </div>
 
                     {{-- other half --}}
-                    <div class="col content order-lg-1">
-                        <h2 class="title">Tentang kami</h2>
+                    <div class="col content order-lg-1 text-start">
 
                         <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
-                            <p class="description">Proses service peralatan komputer adalah sebuah proses identifikasi dan penyelesaian permasalahan yang mengganggu peralatan komputer anda. Beberapa contoh peralatan yang rusak adalah CPU, Laptop, Printer, dan juga Hardisk
+                            <p class="description">Proses service peralatan komputer adalah sebuah proses identifikasi dan
+                                penyelesaian permasalahan yang mengganggu peralatan komputer anda. Beberapa contoh peralatan
+                                yang rusak adalah CPU, Laptop, Printer, dan juga Hardisk
                             </p>
                         </div>
 
                         <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
-                            <p class="description">Data Recovery adalah sebuah proses mengakses dan merecovery informasi digital yang tersimpan di media penyimpanan dimana tidak bisa diakses secara normal. Berbagai kerusakan yang umum yang membutuhkan proses Recovery Hardisk adalahi: Data terhapus, HDD/SSD Rusak sehingga tidak bisa diakses, dll
+                            <p class="description">Data Recovery adalah sebuah proses mengakses dan merecovery informasi
+                                digital yang tersimpan di media penyimpanan dimana tidak bisa diakses secara normal.
+                                Berbagai kerusakan yang umum yang membutuhkan proses Recovery Hardisk adalahi: Data
+                                terhapus, HDD/SSD Rusak sehingga tidak bisa diakses, dll
                             </p>
                         </div>
 
                         <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
-                            <p class="description">Kami - Bumi Makmur Computer - telah berpengalaman lebih dari 20 tahun dalam bidang-bidang diatas. Dengan dukungan Hardware dan Software yang kompleks, kami akan menjadi pilihan terbaik untuk solusi masalah peralatan komputer anda...<a href="/tentangkita">selengkapnya</a></p>
+                            <p class="description">Kami - Bumi Makmur Computer - telah berpengalaman lebih dari 20 tahun
+                                dalam bidang-bidang diatas. Dengan dukungan Hardware dan Software yang kompleks, kami akan
+                                menjadi pilihan terbaik untuk solusi masalah peralatan komputer anda...<a
+                                    href="/tentangkita">selengkapnya</a></p>
                         </div>
 
                     </div>
@@ -152,60 +161,73 @@
     </section>
     <!-- End Testimonies Section -->
 
-<!-- ======= Supported File Section ======= -->
-<section id="team">
-    <div class="container text-center" data-aos="fade-up">
-        <div class="section-header">
-            <h3 class="section-title">Supported File System</h3>
-            <p class="section-description">Toko kami memberi beberapa servis yang dapat kalian pilih, mereka adalah</p>
+    <!-- ======= Supported File Section ======= -->
+    <section id="team">
+        <div class="container text-center" data-aos="fade-up">
+            <div class="section-header">
+                <h3 class="section-title">Supported File System</h3>
+                <p class="section-description">Toko kami memberi beberapa servis yang dapat kalian pilih, mereka adalah</p>
+            </div>
+
+            <div class="row">
+
+                @php($i = 0)
+                @foreach ($supported as $s)
+                    @php($i++)
+                    @if ($i == 7)
+            </div>
+            <div class="row">
+                <div class="col-lg-2 col-md-4">
+                    <div class="member shadowss" data-aos="fade-up" data-aos-delay="100">
+                        <div class="picsupported mt-5"><img class="img-fluid" src="{{ $s['logo'] }}" alt="">
+                        </div>
+                    </div>
+                </div>
+            @else
+                <div class="col-lg-2 col-md-4">
+                    <div class="member shadowss" data-aos="fade-up" data-aos-delay="100">
+                        <div class="picsupported mt-5"><img class="img-fluid" src="{{ $s['logo'] }}" alt="">
+                        </div>
+                    </div>
+                </div>
+                @endif
+                @endforeach
+            </div>
+            {{-- end div for row on if else statement --}}
         </div>
-    </div>
-</section>
-<!-- End supported file Section -->
+    </section>
+    <!-- End supported file Section -->
 
-<!-- ======= Testimonies Section ======= -->
+    <!-- ======= Testimonies Section ======= -->
 
-<section id="services">
-    <div class="container" data-aos="fade-up">
-        <div class="section-header">
-            <h1 class="title">Klien Kami</h1>
-            </h2>
+    <section id="services">
+        <div class="container" data-aos="fade-up">
+            <div class="section-header">
+                <h1 class="title">Klien Kami</h1>
+                </h2>
+            </div>
+
+
+            <div class="customer-logos">
+                @foreach ($clients as $client)
+                    @if ($client['logo'] == '')
+                        <div class="slide h-100 align-middle">
+                            <h3>{{ $client['nama'] }}</h3>
+                        </div>
+                    @else
+                        <div class="slide h-100 align-middle"><img class="h-100" src="{{ $client['logo'] }}">
+                            @if ($client['cabang_mskr'] == 'true')
+                                <h5>*Hanya di Cabang Makassar</h5>
+                            @endif
+                        </div>
+                    @endif
+                @endforeach
+            </div>
+
+
         </div>
-    
-        <script type="text/javascript">
-            $(document).ready(function(){
-                $('.customer-logos').slick({
-                    slidesToShow: 6,
-                    slidesToScroll: 1,
-                    autoplay: true,
-                    autoplaySpeed: 1000,
-                    arrows: false,
-                    dots: false,
-                        pauseOnHover: false,
-                        responsive: [{
-                        breakpoint: 768,
-                        settings: {
-                            slidesToShow: 4
-                        }
-                    }, {
-                        breakpoint: 520,
-                        settings: {
-                            slidesToShow: 3
-                        }
-                    }]
-                });
-            });
-        </script>
-        <div class="customer-logos">
-            @foreach ($clients as $client)
-            <div class="slide h-100 align-middle"><img class="h-100" src="{{ $client['logo'] }}"></div>   
-            @endforeach
-         </div>
-        
-
-    </div>
-</section>
-<!-- End Testimonies Section -->
+    </section>
+    <!-- End Testimonies Section -->
 
 
     {{-- Carilah kami sekarang section --}}

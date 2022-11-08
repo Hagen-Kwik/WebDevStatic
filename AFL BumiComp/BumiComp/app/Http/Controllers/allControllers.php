@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use App\Models\customer;
 use App\Models\review;
 use App\Models\gadgets;
+use App\Models\support;
+
 
 
 class allControllers extends Controller
@@ -18,7 +20,8 @@ class allControllers extends Controller
                 "maintitle" => "Servis Elektronik dengan mudah",
                 "tagline" => "Reservasi dan kontak kami sekarang untk menservis perangkat kalian",
                 'reviews' => review::index(),
-                'clients' => customer::index()
+                'clients' => customer::index(),
+                'supported' => support::index()
             ]
         );
     }
